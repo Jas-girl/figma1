@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.container {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.background {
+    width: 1380px;
+    height: 900px;
+    left: 100px;
+    gap: 0px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    position: absolute;
+
+}
+
+.indicator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90px;
+    height: 900px;
+    position: absolute;
+}
+
+.indi1 i {
+    font-size: 30px;
+    height: 20px;
+    margin-top: 46px;
+    margin-left: 35px;
+    color: rgba(182, 204, 218, 1)
+}
+
+.indi2 {
+    width: 28px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+    color: rgba(182, 204, 218, 1);
+    font-size: 30px;
+    margin-bottom: 120px;
+
+}
+
+#vector,
+#vector1,
+#vector2 {
+    margin-left: 35px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-top: 46px;
+    margin-left: 102px;
+}
+
+.menu {
+    width: 39px;
+    height: 27px;
+    margin-top: 40px;
+    margin-left: 111px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+
+#phone,
+#pad {
+    margin-left: 75px;
+
+}
+
+#iwatch {
+    margin-left: 355px;
+    width: 130px;
+    height: 36px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(182, 204, 218, 1);
+    border-radius: 50px 50px 50px 50px;
+    opacity: 0px;
+    position: absolute;
+    top: 35px;
+    text-align: center;
+
+}
+
+#support {
+    margin-left: 530px;
+    position: absolute;
+}
+
+#search {
+    width: 106px;
+    height: 16px;
+    margin-top: 60px;
+    margin-left: 1250px;
+    position: absolute;
+    font-size: 40px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    width: 680px;
+    height: 258px;
+    top: 151px;
+    margin-left: 102px;
+    font-family: "Poppins";
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 86px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+
+}
+
+.heading span {
+
+    font-weight: 400;
+}
+
+.btn {
+    width: 250px;
+    height: 70px;
+    margin-top: 511px;
+    margin-left: 102px;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px solid rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.btn p {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 13px;
+    position: absolute;
+    margin-left: 70px;
+
+}
+
+#ind {
+    width: 73px;
+    height: 21px;
+    margin-top: 722px;
+    margin-left: 102px;
+    position: absolute;
+    border: 1px 0px 0px 0px;
+    display: block;
+}
+
+.watch img {
+    width: 489px;
+    height: 489px;
+    margin-top: 37px;
+    margin-left: 307px;
+    z-index: 10;
+
+}
+
+.ellipses {
+    margin-top: 215px;
+    margin-left: 1222px;
+    position: absolute;
+
+}
+
+.colind {
+    width: 20px;
+    height: 20px;
+    background: rgba(64, 67, 84, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    position: absolute;
+    border-radius: 50%;
+
+}
+
+.colind1 {
+    width: 30px;
+    height: 30px;
+    top: 52px;
+    background: rgba(171, 198, 214, 1);
+    border: 3px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    border-radius: 50%;
+    left: -5px;
+}
+
+.colind2 {
+    width: 20px;
+    height: 20px;
+    top: 117px;
+    background: rgba(88, 215, 196, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    position: absolute;
+    border-radius: 50%;
+    left: 2px;
+
+}
+.colind3{
+    width: 20px;
+    height: 20px;
+    top: 167px;
+    background: rgba(242, 206, 198, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    position: absolute;
+    border-radius: 50%;
+    left: 2px;
+}
+
+.circle1 {
+    width: 5px;
+    height: 5px;
+    top: 22px;
+    left: 8px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+
+.circle2 {
+    width: 5px;
+    height: 5px;
+    top: 28px;
+    left: 8px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+
+.circle3 {
+    width: 5px;
+    height: 5px;
+    top: 34px;
+    left: 8px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+
+.circle4 {
+    width: 5px;
+    height: 5px;
+    top: 40px;
+    left: 8px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+
+.circle5 {
+    width: 5px;
+    height: 5px;
+    top: 46px;
+    left: 8px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+
+.circle6 {
+    width: 5px;
+    height: 5px;
+    top: 89px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+.circle7 {
+    width: 5px;
+    height: 5px;
+    top: 95px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+.circle8 {
+    width: 5px;
+    height: 5px;
+    top: 101px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+
+.circle9 {
+    width: 5px;
+    height: 5px;
+    top: 107px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+
+.circle10 {
+    width: 5px;
+    height: 5px;
+    top: 113px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+.circle11 {
+    width: 5px;
+    height: 5px;
+    top: 138px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+.circle12 {
+    width: 5px;
+    height: 5px;
+    top: 144px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+.circle13 {
+    width: 5px;
+    height: 5px;
+    top: 150px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+.circle14 {
+    width: 5px;
+    height: 5px;
+    top: 156px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+.circle15 {
+    width: 5px;
+    height: 5px;
+    top: 162px;
+    left: 10px;
+    position: absolute;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+
+}
+.watch_images img{
+    width: 131px;
+height: 98px;
+top: 760px;
+margin-left: 692px;
+position: absolute;
+z-index: 10;
+display:block;
+}
+#watch3{
+    width: 131px;
+    height: 98px;
+    top: 760px;
+    margin-left: 882px;
+    position: absolute;
+    z-index: 10;
+    display:block;
+}
+#watch4{
+    width: 131px;
+    height: 98px;
+    top: 760px;
+    margin-left: 1080px;
+    position: absolute;
+    z-index: 10;
+    display:block;
+}
+
+
+
+@media (max-width:500px) {
+    .background {
+        width: 414px;
+        height: 685px;
+        border-radius: 15px 15px 15px 15px;
+        margin-left: -100px;
+        position: relative;
+    }
+
+    .indicator {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        height: 20px;
+        position: absolute;
+    }
+
+    .indi1 i {
+        width: 30px;
+        height: 20px;
+        margin-top: 700px;
+        margin-left: 33px;
+        color: rgba(182, 204, 218, 1);
+        position: absolute;
+        font-size: 18px;
+    }
+
+    .indi2 {
+        width: 28px;
+        height: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        padding: 5px;
+        color: rgba(182, 204, 218, 1);
+        font-size: 20px;
+        margin-top: 695px;
+        position: absolute;
+
+    }
+
+    #vector {
+        margin-left: 300px;
+
+    }
+
+    #vector1,
+    #vector2 {
+
+        margin-left: 15px;
+    }
+
+    .logo img {
+        margin-top: 33px;
+        margin-left: 28px;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #search {
+
+        width: 88px;
+        height: 24px;
+        margin-top: 40px;
+        margin-left: 282px;
+        border: 1px 0px 0px 0px;
+        position: absolute;
+    }
+
+    .heading {
+        width: 340px;
+        height: 153px;
+        top: 104px;
+        margin-left: 37px;
+        font-family: "Poppins";
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 51px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        position: absolute;
+
+
+    }
+
+    .heading span {
+        font-weight: 400;
+    }
+
+    .btn {
+        width: 141px;
+        height: 38px;
+        margin-top: 228px;
+        margin-left: 28px;
+    }
+
+    .btn p {
+
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 35px;
+        margin-top: 2px;
+
+    }
+
+    #ind {
+        display: none;
+    }
+
+    .watch img {
+        width: 312px;
+        height: 251.3px;
+        margin-top: 287px;
+        margin-left: -137px;
+    }
+    .ellipses {
+        margin-top: 295px;
+        margin-left: 358px;
+        position: absolute;
+    
+    }
+    .watch_images img{
+        display:none;
+    }
+    #watch3{
+        display:none;
+    }
+    #watch4{
+        display:none;
+    }
+
+}
