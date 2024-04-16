@@ -1,569 +1,627 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.container {
-    width: 100%;
-    height: 900px;
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    scroll-behavior: auto;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
-.background {
-    width: 1380px;
-    height: 900px;
-    left: 100px;
-    gap: 0px;
-    border-radius: 15px 15px 15px 15px;
-    opacity: 0px;
-    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
-    position: absolute;
-
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 .indicator {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 90px;
-    height: 900px;
-    position: absolute;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+    padding-left: 30px;
+    font-size: 25px;
+    gap:78vh;
+
 }
 
-.indi1 i {
-    font-size: 30px;
-    height: 20px;
-    margin-top: 46px;
-    margin-left: 35px;
-    color: rgba(182, 204, 218, 1)
+.indi1  {
+    padding-top: 20px;
 }
 
 .indi2 {
-    width: 28px;
-    height: 50px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    padding: 5px;
-    color: rgba(182, 204, 218, 1);
-    font-size: 30px;
-    margin-bottom: 120px;
+    gap: 10px;
+   
 
 }
 
-#vector,
-#vector1,
-#vector2 {
-    margin-left: 35px;
-
+.background {
+    width: 95%;
+    height: 100%;
+    left: 5vw;
+    border-radius: 15px 0px 0px 15px;
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    position: absolute;
+    overflow: hidden;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    height: 13vh;
+    justify-content: space-around;
+    align-items: center;
+    left: -25px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.vector {
+    width: 0px;
+    height: 22px;
+    border: 1px solid rgba(255, 255, 255, 1)
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
-    margin-top: 46px;
-    margin-left: 102px;
+    width: 40px;
+    height: 40px;
 }
 
 .menu {
-    width: 39px;
-    height: 27px;
-    margin-top: 40px;
-    margin-left: 111px;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
+    width: 60vw;
+    text-decoration: none;
+    font-size: 20px;
     font-weight: 500;
     line-height: 27px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
     display: flex;
     flex-direction: row;
-
-
-
-}
-
-#phone,
-#pad {
-    margin-left: 75px;
+    gap: 50px;
+    margin-left: -10vw;
 
 }
 
 #iwatch {
-    margin-left: 355px;
-    width: 130px;
-    height: 36px;
     background: rgba(255, 255, 255, 1);
-    color: rgba(182, 204, 218, 1);
     border-radius: 50px 50px 50px 50px;
-    opacity: 0px;
-    position: absolute;
-    top: 35px;
+    color: #B6CCDA;
+    align-items: center;
     text-align: center;
+    width: 150px;
 
-}
-
-#support {
-    margin-left: 530px;
-    position: absolute;
 }
 
 #search {
-    width: 106px;
-    height: 16px;
-    margin-top: 60px;
-    margin-left: 1250px;
-    position: absolute;
-    font-size: 40px;
+    font-size: 24px;
+    top: 53px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: rgba(255, 255, 255, 1);
 
 }
 
 .content {
     display: flex;
-    flex-direction: row;
+    width: 100vw;
+    top: 20px;
+    height: 85vh;
+
 }
 
 .content2 {
+    float: left;
+    width: 50vw;
+    height: auto;
     display: flex;
     flex-direction: column;
+    padding-left: 6vw;
+    gap: 10vh;
 }
 
-.heading {
-    width: 680px;
-    height: 258px;
-    top: 151px;
-    margin-left: 102px;
-    font-family: "Poppins";
-    font-size: 54px;
+.content2 .heading {
+    width: 100%;
+    padding-top: 10vh;
+    font-size: 57px;
     font-weight: 700;
     line-height: 86px;
     letter-spacing: 0.02em;
-    text-align: left;
     color: rgba(255, 255, 255, 1);
-    position: absolute;
-
+    justify-content: space-around;
 }
 
 .heading span {
-
     font-weight: 400;
 }
 
 .btn {
-    width: 250px;
-    height: 70px;
-    margin-top: 511px;
-    margin-left: 102px;
+    width: 200px;
+    height: 50px;
+    left: 6vw;
     border-radius: 50px 50px 50px 50px;
     border: 3px solid rgba(255, 255, 255, 1);
-    position: relative;
-}
-
-.btn p {
-    font-family: "Poppins";
     font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    margin-top: 13px;
-    position: absolute;
-    margin-left: 70px;
-
+    align-items: center;
+    justify-content: center;
 }
 
 #ind {
-    width: 73px;
-    height: 21px;
-    margin-top: 722px;
-    margin-left: 102px;
-    position: absolute;
-    border: 1px 0px 0px 0px;
+    width: 50px;
     display: block;
 }
 
+.content3 {
+    float: left;
+    width: 50vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    padding-left: 6vw;
+}
+
+.watch_colors {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
 .watch img {
-    width: 489px;
-    height: 489px;
-    margin-top: 37px;
-    margin-left: 307px;
-    z-index: 10;
+    width: 93%;
+    top: 15px;
+
 
 }
 
 .ellipses {
-    margin-top: 215px;
-    margin-left: 1222px;
-    position: absolute;
+    width: 10%;
+    left: 2vw;
+    padding-top: 8vh;
 
 }
 
 .colind {
+
     width: 20px;
     height: 20px;
     background: rgba(64, 67, 84, 1);
     border: 1px solid rgba(255, 255, 255, 1);
-    position: absolute;
     border-radius: 50%;
 
 }
 
 .colind1 {
-    width: 30px;
-    height: 30px;
-    top: 52px;
+    width: 24px;
+    height: 24px;
     background: rgba(171, 198, 214, 1);
     border: 3px solid rgba(255, 255, 255, 1);
     box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.2);
-    position: absolute;
     border-radius: 50%;
-    left: -5px;
+
 }
 
 .colind2 {
     width: 20px;
     height: 20px;
-    top: 117px;
     background: rgba(88, 215, 196, 1);
     border: 1px solid rgba(255, 255, 255, 1);
-    position: absolute;
     border-radius: 50%;
-    left: 2px;
+    margin-left: 2px;
 
 }
-.colind3{
+
+.colind3 {
     width: 20px;
     height: 20px;
-    top: 167px;
     background: rgba(242, 206, 198, 1);
     border: 1px solid rgba(255, 255, 255, 1);
-    position: absolute;
     border-radius: 50%;
-    left: 2px;
+    margin-left: 2px;
+
 }
 
 .circle1 {
-    width: 5px;
-    height: 5px;
-    top: 22px;
-    left: 8px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    padding-top: 2px;
+    margin-left: 8px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
 
 .circle2 {
-    width: 5px;
-    height: 5px;
-    top: 28px;
-    left: 8px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 8px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
 
 .circle3 {
-    width: 5px;
-    height: 5px;
-    top: 34px;
-    left: 8px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 8px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
 
 .circle4 {
-    width: 5px;
-    height: 5px;
-    top: 40px;
-    left: 8px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 8px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
 
 .circle5 {
-    width: 5px;
-    height: 5px;
-    top: 46px;
-    left: 8px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 8px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
 
 .circle6 {
-    width: 5px;
-    height: 5px;
-    top: 89px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 
 .circle7 {
-    width: 5px;
-    height: 5px;
-    top: 95px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 }
 
 .circle8 {
-    width: 5px;
-    height: 5px;
-    top: 101px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
 
 .circle9 {
-    width: 5px;
-    height: 5px;
-    top: 107px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
 
 .circle10 {
-    width: 5px;
-    height: 5px;
-    top: 113px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
+
 .circle11 {
-    width: 5px;
-    height: 5px;
-    top: 138px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
+
 .circle12 {
-    width: 5px;
-    height: 5px;
-    top: 144px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
+
 .circle13 {
-    width: 5px;
-    height: 5px;
-    top: 150px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
+
 .circle14 {
-    width: 5px;
-    height: 5px;
-    top: 156px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
+
 .circle15 {
-    width: 5px;
-    height: 5px;
-    top: 162px;
-    left: 10px;
-    position: absolute;
+    width: 3px;
+    height: 3px;
+    margin-left: 9px;
     background: rgba(255, 255, 255, 1);
     border-radius: 50%;
 
 }
-.watch_images img{
-    width: 131px;
-height: 98px;
-top: 760px;
-margin-left: 692px;
-position: absolute;
-z-index: 10;
-display:block;
-}
-#watch3{
-    width: 131px;
-    height: 98px;
-    top: 760px;
-    margin-left: 882px;
-    position: absolute;
-    z-index: 10;
-    display:block;
-}
-#watch4{
-    width: 131px;
-    height: 98px;
-    top: 760px;
-    margin-left: 1080px;
-    position: absolute;
-    z-index: 10;
-    display:block;
+
+.imgs {
+    width: 80%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 6vw;
+
 }
 
 
+/* media query */
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 
-@media (max-width:500px) {
     .background {
-        width: 414px;
-        height: 685px;
-        border-radius: 15px 15px 15px 15px;
-        margin-left: -100px;
-        position: relative;
+        width: 100vw;
+        height: 85vh;
+        left: 1px;
+        border-radius: 0 0 20px 20px;
+        background-size: 100%;
+        flex-direction: column;
+        display: flex;
     }
 
     .indicator {
+        width: 100vw;
+        height: 15vh;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
-        height: 20px;
-        position: absolute;
+        color: #0E0E0E;
+        border: 2px solid black;
+        margin-top: 85vh;
     }
 
-    .indi1 i {
+    .indi1,
+    .indi2 svg {
+        display: flex;
+        align-items: center;
+        z-index: 10;
+        width: 20px;
+        height: 20px;
+    }
+
+    .indi1 {
         width: 30px;
         height: 20px;
-        margin-top: 700px;
-        margin-left: 33px;
-        color: rgba(182, 204, 218, 1);
-        position: absolute;
-        font-size: 18px;
+        left: 33px;
+        
     }
 
     .indi2 {
-        width: 28px;
-        height: 20px;
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-        padding: 5px;
-        color: rgba(182, 204, 218, 1);
-        font-size: 20px;
-        margin-top: 695px;
-        position: absolute;
-
+        gap: 20px;
+        margin-left: -20vw;
     }
 
-    #vector {
-        margin-left: 300px;
-
-    }
-
-    #vector1,
-    #vector2 {
-
-        margin-left: 15px;
-    }
-
-    .logo img {
-        margin-top: 33px;
-        margin-left: 28px;
-
+    .nav {
+        width: 100%;
     }
 
     .menu {
         display: none;
     }
 
-    #search {
-
-        width: 88px;
-        height: 24px;
-        margin-top: 40px;
-        margin-left: 282px;
-        border: 1px 0px 0px 0px;
-        position: absolute;
+    .content {
+        flex-direction: column;
     }
 
-    .heading {
-        width: 340px;
-        height: 153px;
-        top: 104px;
-        margin-left: 37px;
-        font-family: "Poppins";
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 51px;
+    .content2 {
+        width: 100%;
+        float: none;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .imgs {
+        display: none;
+    }
+
+    .content2 .heading {
+        width: 100%;
+        font-size: 24px;
         letter-spacing: 0.02em;
-        text-align: left;
-        position: absolute;
-
-
-    }
-
-    .heading span {
-        font-weight: 400;
-    }
-
-    .btn {
-        width: 141px;
-        height: 38px;
-        margin-top: 228px;
-        margin-left: 28px;
-    }
-
-    .btn p {
-
-        font-size: 18px;
-        font-weight: 500;
-        margin-left: 35px;
-        margin-top: 2px;
-
+        height: 280px;
+        line-height: 41px;
+        margin-top: -30px;
     }
 
     #ind {
         display: none;
     }
 
+    .btn {
+        margin-top: -90px;
+    }
+
+    .content3 {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .watch_colors {
+        width: 100%;
+    }
+
     .watch img {
-        width: 312px;
-        height: 251.3px;
-        margin-top: 287px;
-        margin-left: -137px;
+        width: 70vw;
     }
+}
+@media screen and (max-width: 900px) and (min-width: 601px) {
+    .container {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: -10vw;
+    }
+
+    .background {
+        left: 10vw;
+        height: 110%;
+    }
+
+    .content2 .heading {
+        font-size: 24px;
+        padding-top: 20vh;
+        line-height: 41px;
+    }
+
+    #ind {
+        margin-top: 20vh;
+    }
+
+    .watch img,
     .ellipses {
-        margin-top: 295px;
-        margin-left: 358px;
-        position: absolute;
+        margin-top: 20vh;
+    }
+
+    .watch_colors {
+        margin-left: -10vw;
+    }
+
+    .imgs {
+        margin-top: 10vh;
+        margin-left: -10vw;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 901px) {
+   .nav{
+    width:100%;
+   }
+    .menu {
+        width: 68vw;
+        font-size: 20px;
+        font-weight: 400;
+        
+        gap: 30px;
+        margin-left: -100px;
+    }
+    #search{
+        margin-left: -30vw;
+    }
+    .container {
+        width:100vw;
+        display: flex;
+        flex-direction: row;
+        
+    }
     
+    .logo{
+        margin-left: -3vw;
     }
-    .watch_images img{
-        display:none;
+    
+    .background {
+        left: 10vw;
+        height:110%;
     }
-    #watch3{
-        display:none;
+    .content2 .heading{
+       
+        font-size: 34px;
+        padding-top: 20vh;
+        line-height: 41px;
     }
-    #watch4{
-        display:none;
+    #ind{
+       margin-top:20vh
+    }
+    .watch img, .ellipses {
+        margin-top: 20vh;
+    }
+    .watch_colors{
+        margin-left: -10vw;
+    }
+    .imgs{
+        margin-top: 10vh;
+        margin-left: -10vw;
     }
 
 }
+@media screen and (max-width: 1300px) and (min-width: 1001px){
+    .nav{
+        width:100%;
+       }
+        .menu {
+            width: 68vw;
+            font-size: 20px;
+            font-weight: 400;
+            
+            gap: 30px;
+            margin-left: -100px;
+        }
+        #search{
+            margin-left: -30vw;
+        }
+        .container {
+            width:100vw;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .background {
+            left: 10vw;
+            height:100%;
+        }
+        .indicator{
+            height:100%;
+        }
+        .content2 .heading{
+       
+            font-size: 34px;
+            padding-top: 20vh;
+            line-height: 41px;
+        }
+        .indi2{
+            margin-top: -10vh;
+        }
+        .imgs{
+           
+            margin-left: -10vw;
+        }
+        .watch_colors{
+            margin-left: -10vw;
+        }
+       .ellipses{
+        margin-top: 20px;
+       }
+        
+}
+
